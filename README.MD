@@ -1,7 +1,7 @@
 # Writeup for the given challenge @ Twitter
 
 * Given website - `http://157.230.239.59:1234`
-* After we visit, redirected to `http://157.230.239.59:1234/?name=hacker`...redirection can be verified via curl:
+* After we visit, redirected to `http://157.230.239.59:1234/?name=hacker`...redirection can be verified via curl:<br>
 ![Screenshot](./1.png)
 
 * The interface is clear that it is a **Ruby-Sinatra** application, Sinatra a mini framework for Ruby backend. The `name` parameter takes an input which is shown in the page:
